@@ -1,0 +1,52 @@
+div#main-split-view {
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+}
+div#settings-split-view {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+#fileContent1, #fileContent2 {
+    height: 50vh;
+    overflow: auto;
+    border-top: solid gray 1px;
+    padding: 10px;
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word; 
+}
+#middle-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#middle-arrow img {
+    max-width: 100px;
+    width: 50%;
+}
+.file-inside {
+    background: white;
+    padding: 20px;
+}
+input {
+    font-family: Lato;
+}
+body {
+    background: #fafafa;
+    color: #272728;
+    font-family: Lato;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: PT Sans;
+}
+#settings-split-view label {
+    cursor: help
+}
+button {
+    font-family: PT Sans;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 10px
+}
